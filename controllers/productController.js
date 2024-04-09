@@ -505,7 +505,7 @@ export const deleteProduct = async (req, res) => {
 
     res.status(200).json({
       success: true,
-      message: "Product has been delete",
+      message: "Product has been delete yes",
       product,
     });
   } catch (error) {
